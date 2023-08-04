@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fluxo-caixa-client-side-solution",
+    "id": "9d06c640-8792-49cc-ab2c-b5a28168b696",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "fluxo-caixa description"
+      },
+      "longDescription": {
+        "default": "fluxo-caixa description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "fluxo-caixa Feature",
+        "description": "The feature that activates elements of the fluxo-caixa solution.",
+        "id": "cde7985c-ddad-474d-adb3-1479d1952f43",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/fluxo-caixa.sppkg"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "fluxo-caixa",
+    "libraryId": "9d06c640-8792-49cc-ab2c-b5a28168b696",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "fluxo-caixa",
+    "solutionShortDescription": "fluxo-caixa description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
