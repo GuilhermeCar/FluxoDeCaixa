@@ -10,15 +10,19 @@
   },
   "dependencies": {
     "@fluentui/react-components": "^9.27.3",
+    "@fluentui/react-datepicker-compat": "^0.2.5",
     "@microsoft/sp-core-library": "1.15.2",
     "@microsoft/sp-lodash-subset": "1.15.2",
     "@microsoft/sp-office-ui-fabric-core": "1.15.2",
     "@microsoft/sp-property-pane": "1.15.2",
     "@microsoft/sp-webpart-base": "1.15.2",
+    "@nivo/arcs": "^0.83.0",
+    "nivo": "^0.31.0",
     "office-ui-fabric-react": "7.185.7",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "tslib": "2.3.1"
+    "tslib": "2.3.1",
+    "victory": "^36.6.11"
   },
   "devDependencies": {
     "@microsoft/rush-stack-compiler-4.5": "0.2.2",

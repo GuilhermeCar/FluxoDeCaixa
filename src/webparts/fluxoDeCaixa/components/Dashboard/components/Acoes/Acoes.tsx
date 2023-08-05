@@ -1,7 +1,7 @@
 import * as React from "react";
 import { IAcoes } from "./IAcoesProps";
 import { Button, Menu, MenuButton, MenuItem, MenuList, MenuPopover, MenuTrigger, makeStyles } from '@fluentui/react-components';
-import { Settings24Regular, GridDots24Regular, ReceiptPlay24Regular, Save24Regular } from '@fluentui/react-icons';
+import { Settings24Regular, GridDots24Regular, ReceiptPlay24Regular, Save24Regular, FolderOpen24Regular } from '@fluentui/react-icons';
 
 const stylesButton = makeStyles({
     wrapper: {
@@ -29,8 +29,9 @@ const Acoes:React.FunctionComponent<IAcoes> = (props) => {
 
                 <MenuPopover>
                     <MenuList>
-                    <MenuItem icon={<ReceiptPlay24Regular />}>Gerar Fluxo de Caixa</MenuItem>
-                    <MenuItem icon={<Save24Regular />}>Salvar Cenário</MenuItem>
+                        <MenuItem icon={<ReceiptPlay24Regular />}>Gerar Fluxo de Caixa</MenuItem>
+                        <MenuItem icon={<FolderOpen24Regular />}>Carregar Cenário</MenuItem>
+                        <MenuItem icon={<Save24Regular />}>Salvar Cenário</MenuItem>
                     </MenuList>
                 </MenuPopover>
             </Menu>

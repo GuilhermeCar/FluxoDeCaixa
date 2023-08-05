@@ -13,7 +13,7 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
 
     return (
         <TabList selectedValue={selectedValue} onTabSelect={onTabSelect}>
-            <Tab icon={<ReceiptMoney24Regular />} value="TabListFluxoCaixa">Fluxo</Tab>
+            <Tab icon={<ReceiptMoney24Regular />} value="TabListFluxoCaixa">Fluxo de Caixa</Tab>
             <Tab value="Teste">Teste</Tab>
         </TabList>
     )

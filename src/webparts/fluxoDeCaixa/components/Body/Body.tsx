@@ -1,6 +1,6 @@
 import * as React from "react";
 import { IBodyProps } from "./IBodyProps";
-import FluxoDeCaixa from "../FluxoCaixa/FluxoDeCaixa";
+import FluxoDeCaixa from "../Dashboard/FluxoDeCaixa";
 
 const Body: React.FunctionComponent<IBodyProps> = (props) => {
 

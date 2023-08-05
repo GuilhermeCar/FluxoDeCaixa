@@ -4,6 +4,7 @@ import { makeResetStyles, tokens } from '@fluentui/react-components';
 
 import Acoes from './components/Acoes/Acoes';
 import FiltrosConfig from './components/FiltrosConfiguracoes/FiltrosConfig';
+import Fluxo from './components/Fluxo/Fluxo';
 
 const useStackClassName = makeResetStyles({
   display: "flex",
@@ -21,10 +22,15 @@ const FluxoDeCaixa: React.FunctionComponent<IFluxoDeCaixaProps> = (props) => {
   }
 
   return (
-    <div className={useStackClassName()}>
-      <Acoes openFiltrosConfig={(open:boolean) => {openFiltrosConfig(open)}}/>
-      <FiltrosConfig open={isOpen} openFiltrosConfig={(open:boolean) => {openFiltrosConfig(open)}}/>
-    </div>
+    <React.Fragment>
+      <div className={useStackClassName()}>
+        <Acoes openFiltrosConfig={(open:boolean) => {openFiltrosConfig(open)}}/>
+        <FiltrosConfig open={isOpen} openFiltrosConfig={(open:boolean) => {openFiltrosConfig(open)}}/>
+      </div>
+      <div className={useStackClassName()}>
+        <Fluxo />
+      </div>
+    </React.Fragment>
   );
 
 }
